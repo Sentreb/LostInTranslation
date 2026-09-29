@@ -73,7 +73,7 @@ public class JSONTranslator implements Translator {
 
     @Override
     public List<String> getLanguageCodes() {
-        return languageCodes;
+        return new ArrayList<>(languageCodes);
     }
 
     @Override
